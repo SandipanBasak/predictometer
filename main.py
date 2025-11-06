@@ -24,7 +24,7 @@ app.add_middleware(
 # ----------------------------------------------------
 # 2️⃣ Load the trained model
 # ----------------------------------------------------
-MODEL_PATH = "soil_resnet50_model.keras"
+MODEL_PATH = "soil_resnet50_finetuned.keras"
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # ----------------------------------------------------
